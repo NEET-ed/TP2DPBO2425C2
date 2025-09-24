@@ -71,6 +71,6 @@ Kelas ini mewarisi dari BarangPremium. Ini merepresentasikan produk yang sangat 
 
 | Tampilkan Data | Tambah Data | Sesudah Tambah Data |
 |-------------|----------------|-----------|
-| <img src="php/dokum/show.png" width="320"> | <img src="php/dokum/add-1.png" width="320"> | <img src="php/dokum/add-2.png" width="320"> |
+| <img src="php/dokum/show.jpg" width="320"> | <img src="php/dokum/add-1.jpg" width="320"> | <img src="php/dokum/add-2.jpg" width="320"> |
 
 ---
