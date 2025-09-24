@@ -68,7 +68,8 @@ Pengguna disajikan dengan menu interaktif yang menawarkan beberapa pilihan (misa
 
 ### Implementasi Khusus
 
-Tabel Dinamis: Lebar setiap kolom pada tabel (display) akan secara otomatis menyesuaikan dengan panjang string terpanjang dalam data. Ini dilakukan dengan menghitung lebar maksimum setiap kolom sebelum mencetak tabel.
+#### Tabel Dinamis
+Lebar setiap kolom pada tabel (display) akan secara otomatis menyesuaikan dengan panjang string terpanjang dalam data. Ini dilakukan dengan menghitung lebar maksimum setiap kolom sebelum mencetak tabel.
 
 #### C++ & Java: 
 Program menggunakan vector/ArrayList untuk menyimpan objek. Polimorfisme digunakan untuk menampilkan data dari kelas turunan melalui pointer/referensi ke kelas induk.
