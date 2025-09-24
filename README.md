@@ -1,5 +1,5 @@
 ## Janji
-_Saya Nurul Atiqah dengan NIM 2406279 mengerjakan soal Tugas Praktikum 1 "OOP dan Enkapsulasi" dalam mata kuliah Desain Pemrograman Berbasis Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin._
+_Saya Nurul Atiqah dengan NIM 2406279 mengerjakan soal Tugas Praktikum 2 "Inheritance/Pewarisan" dalam mata kuliah Desain Pemrograman Berbasis Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin._
 
 ## Desain dan Struktur Kelas
 ### Diagram
@@ -46,7 +46,38 @@ Kelas ini mewarisi dari BarangPremium. Ini merepresentasikan produk yang sangat 
 - setter (set_nomor_seri, set_jumlah_produksi): Mengubah nilai atribut unik.
 - display: Menampilkan semua atribut dari seluruh hierarki kelas dalam format tabel yang rapi.
 
+## Alur Program
 
+Program ini berjalan di antarmuka Command-Line Interface (CLI) untuk C++, Java, dan Python, serta antarmuka web untuk PHP.
+
+### Alur Umum
+
+#### Inisialisasi Awal: 
+Program dimulai dengan membuat 5 objek awal dari kelas BarangEdisiTerbatas dan menyimpannya dalam sebuah array/list.
+
+#### Tampilan Menu: 
+Pengguna disajikan dengan menu interaktif yang menawarkan beberapa pilihan (misalnya, Tampilkan Data, Tambah Data, Keluar).
+
+#### Aksi Pengguna:
+
+- Tampilkan Data: Program mengiterasi melalui array/list dan memanggil metode display untuk setiap objek. Metode display menggunakan getter untuk mengambil nilai atribut dan mencetaknya dalam format tabel dinamis.
+
+- Tambah Data: Pengguna diminta untuk memasukkan data baru. Sebuah objek BarangEdisiTerbatas baru dibuat, dan setter digunakan untuk mengisi atribut-atributnya dengan data dari input pengguna. Objek ini kemudian ditambahkan ke dalam array/list.
+
+- Keluar: Program mengakhiri eksekusi.
+
+### Implementasi Khusus
+
+Tabel Dinamis: Lebar setiap kolom pada tabel (display) akan secara otomatis menyesuaikan dengan panjang string terpanjang dalam data. Ini dilakukan dengan menghitung lebar maksimum setiap kolom sebelum mencetak tabel.
+
+#### C++ & Java: 
+Program menggunakan vector/ArrayList untuk menyimpan objek. Polimorfisme digunakan untuk menampilkan data dari kelas turunan melalui pointer/referensi ke kelas induk.
+
+#### Python: 
+Menggunakan list untuk menyimpan objek. Metode isinstance digunakan untuk mendeteksi tipe objek dan mendapatkan atribut yang spesifik.
+
+#### PHP: 
+Menggunakan sesi ($_SESSION) untuk menyimpan data objek di sisi server, memungkinkan data tetap ada meskipun halaman di-refresh. Untuk fitur tambah data, digunakan formulir HTML dengan opsi unggah file, dan file gambar disimpan di direktori uploads/.
 
 ## Dokumentasi
 
